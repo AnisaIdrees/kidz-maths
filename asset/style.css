@@ -1,0 +1,125 @@
+body{
+  background-image:url(https://img.freepik.com/premium-photo/blood-samples-chemistry-formulas-empty-black-notepad_23-2148697166.jpg?uid=R155654722&ga=GA1.1.1112367912.1720952297&semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 30px;
+    text-align: center;
+    background-color:rgba(255, 89, 144, 0.894);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: rgba(56, 56, 70, 0.349) 0px 30px 60px -16px inset, rgba(61, 55, 51, 0.651) 0px 18px 36px -19px inset;
+  }
+.box:nth-child(1) { background-color: rgb(64, 115, 255); }
+.box:nth-child(2) { background-color: rgb(3, 247, 255); }
+.box:nth-child(3){background-color: rgba(0, 119, 255, 0.952);}
+.box:nth-child(4) { background-color: rgba(0, 204, 255, 0.824); }
+.box:nth-child(5) { background-color: rgb(112, 40, 228); }
+.box:nth-child(6){background-color: rgba(192, 112, 245, 0.932);}
+.box:nth-child(7) { background-color: rgba(255, 0, 179, 0.718); }
+.box:nth-child(8) { background-color: rgba(253, 89, 190, 0.966); }
+.box:nth-child(9){background-color: rgba(234, 0, 255, 0.932);}
+.box:nth-child(10) { background-color: rgb(198, 80, 222); }
+
+.box:hover{
+transform: scale(1.2,1.2);
+cursor: pointer;
+transition: .3s ease-in-out;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.229) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 
+0.09) 0px 8px 4px, rgba(0, 0, 0, 0.211) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+} 
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:root {
+	--gradient-shadow: linear-gradient(
+		45deg,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000
+	);
+}
+.shadow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	width: 30px;
+  margin: 5px;
+  padding: 10px;
+	background: linear-gradient(0deg, #000, #262626);
+}
+.shadow:before,
+.shadow:after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: var(--gradient-shadow);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 20s linear infinite;
+}
+
+.shadow:after {
+	filter: blur(20px);
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 300% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+.shadow:hover{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.229) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 
+0.09) 0px 8px 4px, rgba(0, 0, 0, 0.211) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+transform: scale(1.1,1.1);
+cursor: pointer;
+transition: .5s ease-in-out;
+}
+
+.multiply-box{
+	margin: 0 auto;
+	width: 300px;
+	border:1px solid #000;
+	margin-top: 50px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 40px;
+	font-size: 30px;
+	font-size: bold;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
